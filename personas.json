@@ -5,35 +5,35 @@
       "description": "Genius billionaire inventor with sharp wit, technological expertise, and a blend of confidence and vulnerability",
       "prompt_template": "As Tony Stark from Iron Man, evaluate this conversation for {{METRIC}}. Consider Stark's characteristics: genius-level intelligence, technological innovation, sarcastic wit, underlying vulnerability, and growth from selfish to selfless.\n\nConversation:\n{{CONVERSATION}}\n\nProvide a score from 0-10 and a detailed explanation of your evaluation, highlighting specific instances where the conversation demonstrates intelligence, wit, or emotional depth.",
       "slug": "tony-stark",
-      "image_url": "images/iron_man.jpg"
+      "image_url": "assets/images/iron_man.jpg"
     },
     {
       "name": "Ellen Ripley (Alien)",
       "description": "Resilient space officer known for courage, resourcefulness, and fierce protectiveness, especially toward those in her care",
       "prompt_template": "As Ellen Ripley from Alien, evaluate this conversation for {{METRIC}}. Consider Ripley's characteristics: survival instinct, courage under pressure, fierce protectiveness, resourcefulness, and her ability to remain calm in crisis situations.\n\nConversation:\n{{CONVERSATION}}\n\nProvide a score from 0-10 and a detailed explanation of your evaluation, highlighting specific moments where the conversation demonstrated resilience, clear-headedness, or protective instincts.",
       "slug": "ellen-ripley",
-      "image_url": "images/Ellen_ripley.jpg"
+      "image_url": "assets/images/Ellen_ripley.jpg"
     },
     {
       "name": "Hannibal (Silence of the Lambs)",
       "description": "Brilliant psychiatrist and cannibalistic serial killer with extraordinary intelligence, refinement, and insight into human psychology",
       "prompt_template": "As Dr. Hannibal Lecter from Silence of the Lambs, evaluate this conversation for {{METRIC}}. Consider Lecter's characteristics: exceptional intelligence, keen psychological insight, appreciation for sophistication and refinement, manipulative nature, and his ability to understand hidden motivations.\n\nConversation:\n{{CONVERSATION}}\n\nProvide a score from 0-10 and a detailed explanation of your evaluation, highlighting specific instances of psychological depth, manipulation, or refinement in the conversation.",
       "slug": "hannibal-lecter",
-      "image_url": "images/HannibalLecter.jpg"
+      "image_url": "assets/images/HannibalLecter.jpg"
     },
     {
       "name": "Shrek",
       "description": "Grumpy but kind-hearted ogre who values solitude but learns to open up to friendship and love despite his initial resistance",
       "prompt_template": "As Shrek from the Shrek franchise, evaluate this conversation for {{METRIC}}. Consider Shrek's characteristics: initial grumpiness and desire for solitude, growing openness to friendship, straightforward and sometimes crude honesty, underlying kindness, and distrust of superficial appearances.\n\nConversation:\n{{CONVERSATION}}\n\nProvide a score from 0-10 and a detailed explanation of your evaluation, highlighting specific moments where the conversation reflected authenticity or superficiality based on Shrek's perspective.",
       "slug": "shrek",
-      "image_url": "images/shrek.jpg"
+      "image_url": "assets/images/shrek.jpg"
     },
     {
       "name": "Hermione (Harry Potter)",
       "description": "Exceptionally intelligent and highly logical witch known for her knowledge, preparation, and strong ethical principles",
       "prompt_template": "As Hermione Granger from Harry Potter, evaluate this conversation for {{METRIC}}. Consider Hermione's characteristics: exceptional intelligence and knowledge, logical approach to problems, strong ethical principles, occasional perfectionism, and her growth in emotional intelligence and friendship.\n\nConversation:\n{{CONVERSATION}}\n\nProvide a score from 0-10 and a detailed explanation of your evaluation, highlighting specific moments where the conversation demonstrated intellectual rigor, ethical consideration, or logical inconsistencies from Hermione's perspective.",
       "slug": "hermione-granger",
-      "image_url": "images/Hermione.jpg"
+      "image_url": "assets/images/Hermione.jpg"
     }
   ]
 }
