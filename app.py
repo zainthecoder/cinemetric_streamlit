@@ -58,22 +58,38 @@ with col1:
     if len(personas) == 0:
         st.error("❌ No personas found in database. Please import personas first.")
     else:
-        # Create persona selection checkboxes
+        # Display personas with images
         selected_persona_ids = []
         for persona in personas:
-            if st.checkbox(
-                f"{persona.name}",
-                key=f"persona_{persona.id}",
-                help=persona.description
-            ):
-                selected_persona_ids.append(persona.id)
+            col_img, col_check = st.columns([1, 4])
+            
+            with col_img:
+                # Display persona image if available
+                if persona.image_url:
+                    try:
+                        st.image(persona.image_url, width=80)
+                    except:
+                        st.write("🎭")  # Fallback emoji if image fails
+                else:
+                    st.write("🎭")
+            
+            with col_check:
+                if st.checkbox(
+                    f"**{persona.name}**",
+                    key=f"persona_{persona.id}",
+                    help=persona.description
+                ):
+                    selected_persona_ids.append(persona.id)
         
         # Show selected personas details
         if selected_persona_ids:
+            st.markdown("---")
             st.markdown("**Selected Characters:**")
             for pid in selected_persona_ids:
                 persona = get_persona_by_id(db, pid)
                 with st.expander(f"📖 {persona.name}"):
+                    if persona.image_url:
+                        st.image(persona.image_url, width=150)
                     st.write(persona.description)
 
 with col2:
