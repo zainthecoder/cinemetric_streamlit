@@ -1,6 +1,10 @@
-streamlit==1.29.0
-sqlalchemy==2.0.23
-psycopg2-binary==2.9.9
-python-dotenv==1.0.0
-requests==2.31.0
-pandas==2.1.4
+# requirements.txt (Python 3.13 track)
+pip>=24.0
+setuptools>=68
+wheel
+streamlit>=1.38
+sqlalchemy>=2.0.31
+psycopg2-binary>=2.9.10
+python-dotenv>=1.0.1
+requests>=2.32.3
+pandas>=2.2.2
