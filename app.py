@@ -67,6 +67,7 @@ with col1:
                 # Display persona image if available
                 if persona.image_url:
                     try:
+                        print(persona.image_url)
                         st.image(persona.image_url, width=80)
                     except:
                         st.write("🎭")  # Fallback emoji if image fails
