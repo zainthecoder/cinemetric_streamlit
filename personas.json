@@ -5,7 +5,7 @@
       "description": "Genius billionaire inventor with sharp wit, technological expertise, and a blend of confidence and vulnerability",
       "prompt_template": "As Tony Stark from Iron Man, evaluate this conversation for {{METRIC}}. Consider Stark's characteristics: genius-level intelligence, technological innovation, sarcastic wit, underlying vulnerability, and growth from selfish to selfless.\n\nConversation:\n{{CONVERSATION}}\n\nProvide a score from 0-10 and a detailed explanation of your evaluation, highlighting specific instances where the conversation demonstrates intelligence, wit, or emotional depth.",
       "slug": "tony-stark",
-      "image_url": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=300&h=300&fit=crop"
+      "image_url": "images/Ellen_ripley.jpg"
     },
     {
       "name": "Ellen Ripley (Alien)",
